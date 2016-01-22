@@ -12,7 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+
 //= bootstrap-sprockets
 //= require masonry/jquery.masonry
+
+//= require turbolinks
+
 //= require_tree .
