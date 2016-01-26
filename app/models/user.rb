@@ -5,7 +5,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   	has_many :pins
 
-  	def to_s
+  	# WT?
+    def to_s
   		if self.email
   			return self.email
   		else

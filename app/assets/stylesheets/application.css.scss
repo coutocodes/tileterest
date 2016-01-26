@@ -19,18 +19,20 @@
 @import "bootstrap";
 
 body {
-	background: #E9E9E9;
+	background: #E9E8D8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 100;
+	font-weight: 75;
 }
 
 nav {
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+	box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.22);
+	text-size: 11px;
 	.navbar-brand {
 		a {
 			color: #BD1E23;
+			font-size: 24px;
 			font-weight: bold;
 			&:hover {
 				text-decoration: none;
@@ -43,25 +45,25 @@ nav {
   margin: 0 auto;
   width: 100%;
   .box {
-	  margin: 10px;
-	  width: 350px;
-	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
-	  border-radius: 7px;
+	  margin: 2px;
+	  width: 198px;
+	  box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.22);
+	  border-radius: 3px;
 	  text-align: center;
 	  img {
 	  	max-width: 100%;
 	  	height: auto;
 	  }
 	  h2 {
-	  	font-size: 22px;
+	  	font-size: 17px;
 	  	margin: 0;
-	  	padding: 25px 10px;
+	  	padding: 20px 10px;
 	  	a {
-				color: #474747;
+				color: #474849;
 	  	}
 	  }
 	  .user {
-	  	font-size: 12px;
+	  	font-size: 9px;
 	  	border-top: 1px solid #EAEAEA;
 			padding: 15px;
 			margin: 0;
@@ -84,21 +86,24 @@ nav {
 	}
 	.pin_image {
 		img {
-			max-width: 100%;
-			width: 100%;
+			max-width: 90%;
+			width: 90%;
 			display: block;
 			margin: 0 auto;
 		}
 	}
 	.panel-body {
-		padding: 35px;
+		padding: 30px;
 		h1 {
-			margin: 0 0 10px 0;
+			font-weight: bold;
+			text-align: center;
+			margin: 0 0 0 0;
 		}
 		.description {
-			color: #868686;
+			color: #868690;
 			line-height: 1.75;
-			margin: 0;
+			margin:
+			 0;
 		}
 	}
 	.panel-footer {
