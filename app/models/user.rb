@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   	has_many :pins
 
-  	# WT?
+  	# Vincent Magic
     def to_s
   		if self.email
   			return self.email
